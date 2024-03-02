@@ -28,7 +28,7 @@ h1 {
     margin: 0 auto;
 }
 
-.entrada-blog a {
+.entry-blog a {
     display: inline-block;
     background-color: #2196F3;
     color: white;
@@ -38,4 +38,11 @@ h1 {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+/** Code here **/
+@media (min-width: 768px) {
+    .two-columns {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}
