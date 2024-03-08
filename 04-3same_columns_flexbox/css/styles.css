@@ -22,13 +22,13 @@ h1 {
     font-size: 4rem;
 }
 
-.contenedor {
+.container {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
 }
 
-.entrada-blog a {
+.entry-blog a {
     display: inline-block;
     background-color: #2196F3;
     color: white;
@@ -38,4 +38,10 @@ h1 {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+/** Code here **/
+@media (min-width: 768px) {
+    .three-columns {
+        display: flex;
+        gap: 2rem;
+    }
+}
