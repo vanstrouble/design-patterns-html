@@ -31,13 +31,13 @@ p {
     font-size: 2rem;
 }
 
-.contenedor {
+.container {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
 }
 
-.entrada-blog a {
+.entry-blog a {
     display: inline-block;
     background-color: #2196F3;
     color: white;
@@ -47,4 +47,19 @@ p {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+/** Code here **/
+@media (min-width: 768px) {
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-content {
+        flex-basis: calc(60% - 1rem);
+    }
+    .sidebar {
+        flex-basis: calc(20% - 1rem);
+    }
+    .sidebar-1 {
+        order: -1;
+    }
+}
