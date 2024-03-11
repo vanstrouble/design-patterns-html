@@ -31,13 +31,13 @@ p {
     font-size: 2rem;
 }
 
-.contenedor {
+.container {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
 }
 
-.entrada-blog a {
+.entry-blog a {
     display: inline-block;
     background-color: #2196F3;
     color: white;
