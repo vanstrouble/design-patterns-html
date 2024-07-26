@@ -23,8 +23,6 @@ h1 {
     font-size: 4rem;
 }
 
-/** CODIGO AQUI **/
-
 h2 {
     font-size: 3.2rem;
 }
@@ -33,13 +31,13 @@ p {
     font-size: 2rem;
 }
 
-.contenedor {
+.container {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
 }
 
-.entrada-blog a {
+.entry-blog a {
     display: inline-block;
     background-color: #2196F3;
     color: white;
@@ -49,4 +47,16 @@ p {
     text-transform: uppercase;
 }
 
-/** CODIGO AQUI **/
+
+/** Code here **/
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 6rem;
+        text-align: left;
+    }
+}
